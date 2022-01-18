@@ -21,7 +21,7 @@ const Accueil = () =>
             <header>
                 <nav className='text-white'>
                     <ul className='flex flex-row justify-between mx-2'>
-                        <li> <FontAwesomeIcon icon={faBars} size="2x" className='mt-2' /></li>
+                        <li> <FontAwesomeIcon icon={faBars} size="2x" className='mt-2 cursor-pointer' /></li>
                         {/* <li>S'inscrire sur les listes électorales</li> */}
                     </ul>
                 </nav>
@@ -42,7 +42,7 @@ const Accueil = () =>
                
                     <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md  '>S'inscrire sur les listes électorales</p>
                 
-                <div className=' absolute bottom-2  '>
+                <div className=' absolute bottom-2 animate-bounce  '>
                     <button>
                         <Link href="/menu">
                          <a><FontAwesomeIcon icon={faAngleUp} size="3x" /></a>

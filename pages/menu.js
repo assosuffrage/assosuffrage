@@ -23,7 +23,7 @@ const Menu = () =>
             <header>
                 <nav className='text-white'>
                     <ul className='flex flex-row justify-between mx-2'>
-                        <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x"  className='mt-2 z-20' /></li>
+                        <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x"  className='mt-2 z-20 cursor-pointer' /></li>
                         {/* <li>S'inscrire sur les listes électorales</li> */}
                     </ul>
                 </nav>
@@ -52,10 +52,10 @@ const Menu = () =>
                 </div>
                 {!toggle ? null : (
                     <>
-                        <section className='absolute top-2 bottom-2 left-2  pl-3 '>
+                        <section className='absolute top-2 bottom-2 left-2  pl-3 cursor-pointer '>
                             <nav>
                                 <ul className='flex flex-col '>
-                                    <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x" className='mt-3' />
+                                    <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x" className='mt-3 cursor-pointer' />
                                         <span className=' font-bold text-3xl  py-5 ml-2 '>Menu</span> </li>
                                     <li className=' liste_titre font-bold text-sm py-5 '>Qui sommes nous ?</li>
                                     <li className=' liste_titre font-bold text-sm py-5 '>Nos actions</li>
