@@ -22,11 +22,17 @@ h1 {
   text-shadow: 0 0 1px #e60b0b, 0 0 3px #d10c0c, 0 0 6px #bb0909;
   font-weight: bold;
 }
+.contact {
+  position: absolute;
+  bottom: 1rem;
+}
 
 section {
-  height: 34rem;
-  width: 9rem;
+  height: 93vh;
+  width: 30vh;
   background-color: #2d2f31;
+  cursor: pointer;
+  box-shadow: 6px 5px 2px #1b1e20;
   color: #fff;
 }
 
@@ -54,16 +60,14 @@ section {
 /* Media queries*/
 
 @media (min-width: 280px) and (max-width: 640px) {
-  section {
+  /* section {
     height: 93vh;
     width: 30vh;
     background-color: #2d2f31;
     cursor: pointer;
     box-shadow: 6px 5px 2px #1b1e20;
-  }
-  .contact {
-    margin-top: 20rem;
-  }
+  } */
+
   .liste_titre {
     font-size: 0.91rem;
   }
