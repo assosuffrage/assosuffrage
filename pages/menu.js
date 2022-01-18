@@ -24,11 +24,11 @@ const Menu = () =>
                 <nav className='text-white'>
                     <ul className='flex flex-row justify-between mx-2'>
                         <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x"  className='mt-2 z-20' /></li>
-                        <li>S'inscrire sur les listes électorales</li>
+                        {/* <li>S'inscrire sur les listes électorales</li> */}
                     </ul>
                 </nav>
             </header>
-            <main className='text-white w-screen h-screen flex justify-center items-center'>
+            <main className='text-white w-screen h-screen flex justify-center flex-col items-center'>
                 <h1 className='text-5xl md:text-8xl lg:text-9xl z-50'>
                     <span className='suff'>SUFF</span>
                     <span className='rage'>RAGE</span>
@@ -41,31 +41,32 @@ const Menu = () =>
                             Your browser does not support the
                             <code>audio</code> element.
                     </audio>
-            
-                <div className=' absolute bottom-2  '>
-                    <button >
+                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50 '>S'inscrire sur les listes électorales</p>
+                <div className=' absolute bottom-2 z-50 '>
+                    <button className=' animate-bounce'>
                          <Link href="/accueil">
-                           <a><FontAwesomeIcon icon={faAngleUp} size="3x" /></a>
+                           <a><FontAwesomeIcon icon={faAngleUp} size="3x"  /></a>
                          </Link>
                     </button>
                    
                 </div>
-                {!toggle ? (
+                {!toggle ? null : (
                     <>
-                        <section className='absolute top-2 bottom-2 left-2   pl-3 '>
+                        <section className='absolute top-2 bottom-2 left-2  pl-3 '>
                             <nav>
                                 <ul className='flex flex-col '>
-                                    <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x"  className='' /></li>
-                                    <li className=' font-bold text-sm py-5 '>Qui sommes nous</li>
-                                    <li className=' font-bold text-sm py-5 '>Nos actions</li>
-                                    <li className=' font-bold text-sm py-5 '>Nous rejoindre</li>
-                                    <li className=' font-bold text-sm py-5 mt-60 '>Contacts</li>
+                                    <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x" className='mt-3' />
+                                        <span className=' font-bold text-3xl  py-5 ml-2 '>Menu</span> </li>
+                                    <li className=' liste_titre font-bold text-sm py-5 '>Qui sommes nous ?</li>
+                                    <li className=' liste_titre font-bold text-sm py-5 '>Nos actions</li>
+                                    <li className=' liste_titre font-bold text-sm py-5 '>Nous rejoindre</li>
+                                    <li className=' liste_titre contact font-bold text-sm py-5  '>Contacts</li>
                                 </ul>
                             </nav>
                         </section>
             
                     </>
-                ) : null }
+                )  }
               
 
                

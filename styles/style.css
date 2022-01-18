@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Poppins:wght@300;400;700&display=swap");
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -26,6 +27,7 @@ section {
   height: 34rem;
   width: 9rem;
   background-color: #2d2f31;
+  color: #fff;
 }
 
 /* Keyframes */
@@ -46,5 +48,23 @@ section {
   100% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+/* Media queries*/
+
+@media (min-width: 280px) and (max-width: 640px) {
+  section {
+    height: 93vh;
+    width: 30vh;
+    background-color: #2d2f31;
+    cursor: pointer;
+    box-shadow: 6px 5px 2px #1b1e20;
+  }
+  .contact {
+    margin-top: 20rem;
+  }
+  .liste_titre {
+    font-size: 0.91rem;
   }
 }
