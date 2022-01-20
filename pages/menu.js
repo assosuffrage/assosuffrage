@@ -41,7 +41,7 @@ const Menu = () =>
                             Your browser does not support the
                             <code>audio</code> element.
                     </audio>
-                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50 '>S'inscrire sur les listes électorales</p>
+                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50 bg-white '>S'inscrire sur les listes électorales</p>
                 <div className=' absolute bottom-2 z-50 '>
                     <button className=' animate-bounce'>
                          <Link href="/accueil">

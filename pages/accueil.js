@@ -32,7 +32,7 @@ const Accueil = () =>
                 </nav>
             </header>
             <main className='text-white w-screen h-screen flex justify-center flex-col items-center'>
-                <h1 className=' text-5xl md:text-8xl lg:text-9xl z-50'>
+                <h1 className=' text-5xl md:text-8xl lg:text-9xl font-bold z-50'>
                     <span className='suff'>SUFF</span>
                     <span className='rage'>RAGE</span>
                 </h1>
@@ -45,7 +45,7 @@ const Accueil = () =>
                             <code>audio</code> element.
                     </audio>
                
-                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50  '>S'inscrire sur les listes électorales</p>
+                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50 bg-gray-600 text-white '>S'inscrire sur les listes électorales</p>
                 
                 <div className=' absolute bottom-2 animate-bounce z-50 '>
                     <button>
