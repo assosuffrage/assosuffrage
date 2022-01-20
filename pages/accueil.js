@@ -26,7 +26,7 @@ const Accueil = () =>
             <header>
                 <nav className='text-white'>
                     <ul className='flex flex-row justify-between mx-2'>
-                        <li> <FontAwesomeIcon icon={faBars} size="2x" onClick={menuToggle} className='mt-2 cursor-pointer' /></li>
+                        <li> <FontAwesomeIcon icon={faBars} size="2x" onClick={menuToggle} className='mt-2 cursor-pointer outline-none' /></li>
                         {/* <li>S'inscrire sur les listes électorales</li> */}
                     </ul>
                 </nav>
@@ -45,7 +45,7 @@ const Accueil = () =>
                             <code>audio</code> element.
                     </audio>
                
-                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50 bg-gray-600 text-white '>S'inscrire sur les listes électorales</p>
+                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50 bg-gray-600 rounded-3xl p-3 subscribe cursor-pointer transition-transform delay-200 duration-500 ease-in-out outline-none hover:scale-125 '>S'inscrire sur les listes électorales</p>
                 
                 <div className=' absolute bottom-2 animate-bounce z-50 '>
                     <button>

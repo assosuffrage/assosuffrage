@@ -6,6 +6,19 @@ const Layout = ({ children, page }) => {
     <div className="w-full grid  m-0 p-0 place-content-center   ">
       <Head>
       <meta charSet="utf-8" />
+      <link
+            rel="preload"
+            href="/webfontkit/inlander_outline_rough-webfont.woff"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/webfontkit/inlander_outline_rough-webfont.woff2"
+            as="font"
+            crossOrigin=""
+          />
+          
         <title>{page}</title>
       </Head>
       <header>

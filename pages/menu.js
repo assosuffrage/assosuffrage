@@ -19,7 +19,7 @@ const Menu = () =>
     }
 
     return (
-        <div className='bg-black'>
+        <div className='bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500'>
             <header>
                 <nav className='text-white'>
                     <ul className='flex flex-row justify-between mx-2'>
