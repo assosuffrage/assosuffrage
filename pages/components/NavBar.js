@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import logo from "../../src/logo-3.png";
+// import logo from "../../src/logo-3.png";
 
 const NavBar = () => {
     const [toggle, setToggle] = useState(false)
