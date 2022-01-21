@@ -27,7 +27,10 @@ const NavBar = () => {
                                 <ul className='flex flex-col '>
                                     <li className=''> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x" className='mt-3 cursor-pointer' />
                                         <span className=' font-bold text-3xl  py-5 ml-2 '>Menu</span> </li>
-                                    <li className=' liste_titre font-bold text-sm py-5 '>Qui sommes nous ?</li>
+                                    <li className=' liste_titre font-bold text-sm py-5 '>
+                                    <Link href="/sommes-nous">
+                                   <a> Qui sommes nous ?</a>
+                                   </Link></li>
                                     <li className=' liste_titre font-bold text-sm py-5 '>Nos actions</li>
                                     <li className=' liste_titre font-bold text-sm py-5 '>Nous rejoindre</li>
                                     <li className=' liste_titre contact font-bold text-sm py-5  '>Contacts</li>
