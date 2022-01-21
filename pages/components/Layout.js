@@ -1,9 +1,9 @@
 import Head from "next/head";
-
+import NavBar from "./NavBar";
 
 const Layout = ({ children, page }) => {
   return (
-    <div className="w-full grid  m-0 p-0 place-content-center   ">
+    <div className="w-screen grid  m-0 p-0 place-content-center   ">
       <Head>
       <meta charSet="utf-8" />
       <link
@@ -22,9 +22,9 @@ const Layout = ({ children, page }) => {
         <title>{page}</title>
       </Head>
       <header>
-        
+        <NavBar />
       </header>
-      <main className=" bg-gradient-to-b from-gray-800 via-gray-500 to-gray-700  flex flex-col justify-center items-center  ">
+      <main className="   ">
         {children}
       </main>
       

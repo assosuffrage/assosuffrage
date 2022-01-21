@@ -1,5 +1,6 @@
 module.exports = {
   reactStrictMode: true,
+  swcMinify: true,
   webpack(config, options) {
     config.module.rules.push({
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
@@ -14,4 +15,14 @@ module.exports = {
     });
     return config;
   },
+    async redirects() {
+      return [
+        {
+          source: '/',
+          destination: '/accueil',
+          permanent: true,
+        },
+      ]
+    },
+  
 }

@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { faHandPointRight} from '@fortawesome/free-solid-svg-icons';
 // import { Fade } from "react-awesome-reveal";
 
 // import { useInView } from 'react-intersection-observer'
@@ -11,62 +12,44 @@ import neon from "../src/neon.mp3"
 
 const Menu = () =>
 {
-    const [toggle, setToggle] = useState(false)
-    const menuToggle = () =>
-    {
-        setToggle(!toggle)
-        console.log(toggle);
-    }
-
+  
     return (
         <div className='bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500'>
-            <header>
-                <nav className='text-white'>
-                    <ul className='flex flex-row justify-between mx-2'>
-                        <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x"  className='mt-2 z-20 cursor-pointer' /></li>
-                        {/* <li>S'inscrire sur les listes électorales</li> */}
-                    </ul>
-                </nav>
-            </header>
-            <main className='text-white w-screen h-screen flex justify-center flex-col items-center'>
-                <h1 className='text-5xl md:text-8xl lg:text-9xl z-50'>
-                    <span className='suff'>SUFF</span>
-                    <span className='rage'>RAGE</span>
-                </h1>
+           
+            <main className='text-white w-screen h-screen   flex  flex-col justify-center items-center '>
+                <div className='bg-gradient-to-b from-blue-700 via-blue-800 to-red-500  flex flex-row-reverse justify-center items-center  m-12 py-5 px-2 rounded-xl
+                  '>
+                    <h1 className=' font-bold text-xl md:text-2xl lg:text-2xl ' id='calendar'>
+                        CALENDRIER ÉLECTORALES  
+                    </h1>
+                    <span className='pr-4'><FontAwesomeIcon icon={faCalendarAlt} size="2x"  /></span>
+                </div>
+               
                 
-                    <audio
-                    controls
-                    autoPlay
-                        src={neon} hidden>
-                            Your browser does not support the
-                            <code>audio</code> element.
-                    </audio>
-                    <p className=' mt-12 font-bold text-xs sm:text-sm md:text-md z-50 bg-white '>S'inscrire sur les listes électorales</p>
-                <div className=' absolute bottom-2 z-50 '>
-                    <button className=' animate-bounce'>
+                <div className='flex flex-col justify-center   font-semibold'>
+                   
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 23 JANVIER : FERMETURE DES INSCRIPTIONS POUR LA PRIMAIRE POPULAIRE </p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 27 AU 30 JANVIER : PRIMAIRES POPULAIRES</p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 2 MARS : DATE LIMITE D'INSCRIPTION SUR LES LISTES  EN LIGNE </p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 4 MARS : DATE LIMITE D'INSCRIPTION SUR LES LISTES À LA MAIRIE</p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> Dates de meeting </p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 10 AVRIL : PREMIER TOUR DES ÉLECTIONS PRÉSIDENTIELLES</p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 24 AVRIL : DEUXIÈME TOUR DES ÉLECTIONS PRÉSIDENTIELLES</p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 12 JUIN : PREMIER TOUR DES ÉLECTIONS LÉGISLATIVES</p>
+                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 19 JUIN : DEUXIÈME TOUR DES ÉLECTIONS LÉGISLATIVES </p>
+                   
+                </div>
+                  
+               
+                <div className=' fixed bottom-2   z-50 '>
+                    <button className=' animate-bounce flex '>
                          <Link href="/accueil">
                            <a><FontAwesomeIcon icon={faAngleUp} size="3x"  /></a>
                          </Link>
                     </button>
                    
                 </div>
-                {!toggle ? null : (
-                    <>
-                        <section className='absolute top-2 bottom-2 left-2  pl-3 cursor-pointer '>
-                            <nav>
-                                <ul className='flex flex-col '>
-                                    <li> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x" className='mt-3 cursor-pointer' />
-                                        <span className=' font-bold text-3xl  py-5 ml-2 '>Menu</span> </li>
-                                    <li className=' liste_titre font-bold text-sm py-5 '>Qui sommes nous ?</li>
-                                    <li className=' liste_titre font-bold text-sm py-5 '>Nos actions</li>
-                                    <li className=' liste_titre font-bold text-sm py-5 '>Nous rejoindre</li>
-                                    <li className=' liste_titre contact font-bold text-sm py-5  '>Contacts</li>
-                                </ul>
-                            </nav>
-                        </section>
-            
-                    </>
-                )  }
+               
               
 
                

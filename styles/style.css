@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Poppins:wght@300;400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
 body {
   margin: 0;
@@ -12,7 +11,9 @@ h1 {
   font-family: inlander_outlinerough, serif;
   letter-spacing: 10px;
 }
-
+#calendar {
+  font-family: "Poppins", sans-serif;
+}
 .suff {
   color: #3251d6;
   text-shadow: 0 0 1px #2c46bd, 0 0 3px #042fee, 0 0 6px #0935f8;
@@ -28,7 +29,10 @@ h1 {
   position: absolute;
   bottom: 1rem;
 }
-
+.bulle {
+  list-style-type: circle;
+  color: black;
+}
 /* .subscribe {
   font-family: inlander_outlinerough;
 } */
