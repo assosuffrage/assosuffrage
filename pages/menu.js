@@ -16,7 +16,7 @@ const Menu = () =>
     return (
         <div className='bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500'>
            
-            <main className='text-white w-screen h-screen   flex  flex-col justify-center items-center '>
+            <main className='text-white w-full h-full   flex  flex-col justify-center items-center '>
                 <div className='bg-gradient-to-b from-blue-700 via-blue-800 to-red-500  flex flex-row-reverse justify-center items-center  m-12 py-5 px-2 rounded-xl
                   '>
                     <h1 className=' font-bold text-xl md:text-2xl lg:text-2xl ' id='calendar'>

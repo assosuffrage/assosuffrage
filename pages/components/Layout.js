@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Layout = ({ children, page }) => {
   return (
-    <div className="w-screen grid  m-0 p-0 place-content-center   ">
+    <div className="w-full flex justify-center flex-col  m-0 p-0 place-content-center   ">
       <Head>
       <meta charSet="utf-8" />
       <link
