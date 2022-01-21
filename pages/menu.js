@@ -8,7 +8,7 @@ import { faHandPointRight} from '@fortawesome/free-solid-svg-icons';
 
 // import { useInView } from 'react-intersection-observer'
 
-import neon from "../src/neon.mp3"
+
 
 const Menu = () =>
 {
@@ -28,15 +28,15 @@ const Menu = () =>
                 
                 <div className='flex flex-col justify-center   font-semibold'>
                    
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 23 JANVIER : FERMETURE DES INSCRIPTIONS POUR LA PRIMAIRE POPULAIRE </p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 27 AU 30 JANVIER : PRIMAIRES POPULAIRES</p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 2 MARS : DATE LIMITE D'INSCRIPTION SUR LES LISTES  EN LIGNE </p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 4 MARS : DATE LIMITE D'INSCRIPTION SUR LES LISTES À LA MAIRIE</p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> Dates de meeting </p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 10 AVRIL : PREMIER TOUR DES ÉLECTIONS PRÉSIDENTIELLES</p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 24 AVRIL : DEUXIÈME TOUR DES ÉLECTIONS PRÉSIDENTIELLES</p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 12 JUIN : PREMIER TOUR DES ÉLECTIONS LÉGISLATIVES</p>
-                   <p className='px-3  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 19 JUIN : DEUXIÈME TOUR DES ÉLECTIONS LÉGISLATIVES </p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 23 JANVIER : FERMETURE DES INSCRIPTIONS POUR LA PRIMAIRE POPULAIRE </p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 27 AU 30 JANVIER : PRIMAIRES POPULAIRES</p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 2 MARS : DATE LIMITE D'INSCRIPTION SUR LES LISTES  EN LIGNE </p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 4 MARS : DATE LIMITE D'INSCRIPTION SUR LES LISTES À LA MAIRIE</p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> Dates de meeting </p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 10 AVRIL : PREMIER TOUR DES ÉLECTIONS PRÉSIDENTIELLES</p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 24 AVRIL : DEUXIÈME TOUR DES ÉLECTIONS PRÉSIDENTIELLES</p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 12 JUIN : PREMIER TOUR DES ÉLECTIONS LÉGISLATIVES</p>
+                   <p className='px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 bg-gradient-to-r from-blue-700 via-blue-800 to-red-500 rounded-3xl  '><FontAwesomeIcon icon={faHandPointRight} size=""  /> 19 JUIN : DEUXIÈME TOUR DES ÉLECTIONS LÉGISLATIVES </p>
                    
                 </div>
                   
