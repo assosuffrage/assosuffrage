@@ -31,9 +31,21 @@ const NavBar = () => {
                                     <Link href="/sommes-nous">
                                    <a> Qui sommes nous ?</a>
                                    </Link></li>
-                                    <li className=' liste_titre font-bold text-sm py-5 '>Nos actions</li>
-                                    <li className=' liste_titre font-bold text-sm py-5 '>Nous rejoindre</li>
-                                    <li className=' liste_titre contact font-bold text-sm py-5  '>Contacts</li>
+                                    <li className=' liste_titre font-bold text-sm py-5 '>
+                                         <Link href="/nos-actions">
+                                         <a> Nos actions</a>
+                                        </Link>
+                                    </li>
+                                    <li className=' liste_titre font-bold text-sm py-5 '>
+                                        <Link href="/rejoindre">
+                                         <a> Nous rejoindre</a>
+                                        </Link>
+                                    </li>
+                                    <li className=' liste_titre contact font-bold text-sm py-5  '>
+                                        <Link href="/contacts">
+                                         <a> Contacts</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </nav>
                         </section>
