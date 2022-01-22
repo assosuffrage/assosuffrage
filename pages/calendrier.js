@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { faHandPointRight} from '@fortawesome/free-solid-svg-icons';
-// import { Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
-// import { useInView } from 'react-intersection-observer'
+
 
 
 
@@ -17,6 +17,7 @@ const Menu = () =>
         <div className='bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500'>
            
             <main className='text-white w-screen md:h-screen flex justify-center flex-col items-center '>
+                    <Fade cascade triggerOnce  direction={"top"}>
                 <div className='bg-gradient-to-b from-blue-700 via-blue-800 to-red-500  flex flex-row-reverse justify-center items-center  m-12 py-5 px-2 rounded-xl
                   '>
                     <h1 className=' font-bold text-xl md:text-2xl lg:text-2xl ' >
@@ -49,8 +50,9 @@ const Menu = () =>
                     </button>
                    
                 </div>
-               
+                </Fade>
             </main>
+               
         </div>
     );
 };

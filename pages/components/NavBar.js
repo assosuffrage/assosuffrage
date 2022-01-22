@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import logo from "../../src/logo-3.png";
+import logo from "../../src/logo-3.png";
 
 const NavBar = () => {
     const [toggle, setToggle] = useState(false)
@@ -12,13 +12,33 @@ const NavBar = () => {
         setToggle(!toggle)
         console.log(toggle);
     }
+    
+    useEffect(() => {
+        const removeToggle = () =>
+        {
+            if (toggle == true)
+            {
+                setToggle(false)
+            }
+        }
+        
+        window && window.addEventListener("hashchange", removeToggle);
+        window && window.addEventListener("click", removeToggle);
+        
+        return () => {
+            window && window.removeEventListener("hashchange", removeToggle);
+            window && window.removeEventListener("click", removeToggle);
+          
+        };
+    }) 
+
     return (
         <div className='bg-black'>
             
                 <nav className='text-white'>
                     <ul className='flex flex-row justify-between mx-2'>
                         <li> <FontAwesomeIcon icon={faBars} size="2x" onClick={menuToggle} className='mt-2 cursor-pointer outline-none' /></li>
-                        {/* <span className='absolute  right-1 '> <Image  src={logo} alt="suffrage logo" width={100} height={100} /></span> */}
+                        <span className='absolute  right-1 '> <Image  src={logo} alt="suffrage logo" width={100} height={100} /></span>
                     </ul>
                     {!toggle ? null : (
                     <>
@@ -32,7 +52,7 @@ const NavBar = () => {
                                    <a> Qui sommes nous ?</a>
                                    </Link></li>
                                     <li className=' liste_titre font-bold text-sm py-5 '>
-                                         <Link href="/nos-actions">
+                                         <Link href="/actions">
                                          <a> Nos actions</a>
                                         </Link>
                                     </li>
