@@ -6,7 +6,6 @@ body {
 
   font-family: "Poppins", sans-serif;
 }
-
 #calendar {
   font-family: inlander_outlinerough, serif;
   letter-spacing: 10px;
@@ -34,9 +33,9 @@ h1 {
   list-style-type: circle;
   color: black;
 }
-/* .subscribe {
-  font-family: inlander_outlinerough;
-} */
+.mylogo {
+  top: -1.3rem;
+}
 section {
   height: 93vh;
   width: 30vh;
@@ -45,9 +44,7 @@ section {
   box-shadow: 6px 5px 2px #1b1e20;
   color: #fff;
 }
-
 /* Keyframes */
-
 @keyframes pulse {
   0% {
     transform: scale(0);
@@ -66,19 +63,19 @@ section {
     opacity: 1;
   }
 }
-
 /* Media queries*/
-
 @media (min-width: 280px) and (max-width: 640px) {
-  /* section {
-    height: 93vh;
-    width: 30vh;
-    background-color: #2d2f31;
-    cursor: pointer;
-    box-shadow: 6px 5px 2px #1b1e20;
-  } */
-
   .liste_titre {
     font-size: 0.91rem;
+  }
+}
+@media (min-width: 280px) and (max-width: 319px) {
+  .actions {
+    height: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  .actions {
+    height: 100vh;
   }
 }
