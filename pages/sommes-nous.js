@@ -7,20 +7,20 @@ import { Fade } from "react-awesome-reveal";
 const Nous = () => {
     return (
         <div className="bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500
-        text-white w-screen h-screen flex  flex-col items-start sm:items-center">
+        text-white w-full h-full   sm:h-screen flex  flex-col items-center sm:items-center sommes-nous">
             <Fade cascade triggerOnce  direction={"top"}>
               <h1 className="text-2xl flex  justify-center items-center mt-12 md:mt-5 ">Qui sommes-nous ?</h1>
             </Fade>
             <Fade cascade triggerOnce  direction={"left"}>
                 <div className="my-5 mx-2 text-center flex justify-center items-center flex-col" >
                     <h2 className=" px-2  mb-3 text-xl bg-gradient-to-b from-blue-700 via-blue-800 to-red-500 rounded-3xl">Présentation de l'association</h2>
-                    <p className=' md:w-3/5'>Speech sur notre objet "faciliter l'accès à la vie politique et créer un espace de débat démocratique pour la jeunesse </p>
+                    <p className=' sm:w-2/5 lg:w-2/6'>Speech sur notre objet "faciliter l'accès à la vie politique et créer un espace de débat démocratique pour la jeunesse </p>
                 </div>
             </Fade>
             <Fade cascade triggerOnce  direction={"right"}>
                 <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
                     <h2 className=" px-2 mb-3 text-xl bg-gradient-to-b from-blue-700 via-blue-800 to-red-500 rounded-3xl">Notre raison d'être</h2>
-                    <p className=' md:w-3/5'>Parler de la hausse de l'abstention, les raisons de cette abstention, que les jeunes ne sont pas désintéressés des questions sociétales environnementales .. mais qu'il existe une méfiance de la sphère politique </p>
+                    <p className=' sm:w-2/5 lg:w-2/6'>Parler de la hausse de l'abstention, les raisons de cette abstention, que les jeunes ne sont pas désintéressés des questions sociétales environnementales .. mais qu'il existe une méfiance de la sphère politique </p>
                 </div>
             </Fade>
             <Fade cascade triggerOnce  direction={"right"}>

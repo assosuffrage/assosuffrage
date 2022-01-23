@@ -75,7 +75,8 @@ section {
   }
 }
 @media (min-width: 320px) and (max-width: 640px) {
-  .actions {
+  .actions,
+  .sommes-nous {
     height: 100vh;
   }
 }
