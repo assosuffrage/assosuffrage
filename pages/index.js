@@ -6,6 +6,9 @@ import Calendrier from './calendrier'
 import Nous from './sommes-nous'
 import Rejoindre from './rejoindre'
 import Contacts from './contacts'
+import Oui from './oui'
+import Non from './non'
+import Jsp from './jsp'
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
       <Nous />
       <Rejoindre />
       <Contacts />
+      <Oui />
+      <Non />
+      <Jsp />
     </Layout>
    
   )

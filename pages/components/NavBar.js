@@ -37,7 +37,7 @@ const NavBar = () => {
             
                 <nav className='text-white '>
                     <ul className='flex flex-row  justify-between  mx-2'>
-                        <li> <FontAwesomeIcon icon={faBars} size="2x" onClick={menuToggle} className='mt-2 cursor-pointer outline-none' /></li>
+                        <li> <FontAwesomeIcon icon={faBars} size="2x" onClick={menuToggle} className='mt-2 cursor-pointer outline-none ' /></li>
                         <li className='absolute  right-1 mylogo cursor-pointer '><Link href="/accueil"><Image  src={logo} alt="suffrage logo" width={200} height={90} /></Link> </li>
                     </ul>
                     {!toggle ? null : (
@@ -45,7 +45,7 @@ const NavBar = () => {
                         <section className='absolute top-2 bottom-2 left-2  pl-3 cursor-pointer z-10 '>
                             <nav>
                                 <ul className='flex flex-col '>
-                                    <li className=''> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x" className='mt-3 cursor-pointer' />
+                                    <li className=''> <FontAwesomeIcon icon={faBars} onClick={menuToggle} size="2x" className='mt-3 cursor-pointer ' />
                                         <span className=' font-bold text-3xl  py-5 ml-2 '>Menu</span> </li>
                                     <li className=' liste_titre font-bold text-sm py-5 '>
                                     <Link href="/sommes-nous">

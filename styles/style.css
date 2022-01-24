@@ -79,4 +79,7 @@ section {
   .sommes-nous {
     height: 100vh;
   }
+  .ouititle {
+    width: 18rem;
+  }
 }
