@@ -38,7 +38,7 @@ const NavBar = () => {
                 <nav className='text-white '>
                     <ul className='flex flex-row  justify-between  mx-2'>
                         <li> <FontAwesomeIcon icon={faBars} size="2x" onClick={menuToggle} className='mt-2 cursor-pointer outline-none ' /></li>
-                        <li className='absolute  right-1 mylogo cursor-pointer '><Link href="/accueil"><Image  src={logo} alt="suffrage logo" width={200} height={90} /></Link> </li>
+                        <li className='absolute  right-1 mylogo cursor-pointer '><Link href="/accueil"><Image  src={logo} alt="suffrage logo" width={250} height={100} /></Link> </li>
                     </ul>
                     {!toggle ? null : (
                     <>

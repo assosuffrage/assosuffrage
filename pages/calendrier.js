@@ -1,19 +1,19 @@
 import Link from 'next/link';
+import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { faHandPointRight} from '@fortawesome/free-solid-svg-icons';
 import { Fade } from "react-awesome-reveal";
-
-
-
-
+import { page } from "./components/Layout";
 
 const Menu = () =>
 {
   
     return (
+        <> 
+            <Head><title>{page = "Calendrier" }</title></Head>
         <div className='bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500'>
            
             <main className='text-white w-screen  lg:h-full xl:h-screen xl:w-full  flex justify-center flex-col items-center '>
@@ -45,7 +45,7 @@ const Menu = () =>
                 <div className=' fixed bottom-2   z-50 '>
                     <button className=' animate-bounce flex '>
                          <Link href="/accueil">
-                           <a><FontAwesomeIcon icon={faAngleUp} size="3x"  /></a>
+                           <a alt="lien vers la page d'accueil"><FontAwesomeIcon icon={faAngleUp} size="3x"  /></a>
                          </Link>
                     </button>
                    
@@ -54,6 +54,7 @@ const Menu = () =>
             </main>
                
         </div>
+        </>    
     );
 };
 

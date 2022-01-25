@@ -16,13 +16,13 @@ h1 {
 }
 .suff {
   color: #3251d6;
-  text-shadow: 0 0 1px #2c46bd, 0 0 3px #042fee, 0 0 6px #0935f8;
+  text-shadow: 0 0 1px #3251d6;
   font-weight: bold;
   animation: pulse 1200ms forwards 100ms;
 }
 .rage {
   color: #ff1616;
-  text-shadow: 0 0 1px #e60b0b, 0 0 3px #d10c0c, 0 0 6px #bb0909;
+  text-shadow: 0 0 1px #ff1616;
   font-weight: bold;
 }
 .contact {

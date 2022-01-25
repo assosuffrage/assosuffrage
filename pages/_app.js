@@ -11,7 +11,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 library.add(fab, fas);
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <Layout >
       <Component {...pageProps} />
     </Layout> 
   )

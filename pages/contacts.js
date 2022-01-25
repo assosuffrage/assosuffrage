@@ -1,11 +1,14 @@
-import React from 'react';
+import Head from 'next/head';
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 import { Fade } from "react-awesome-reveal";
+import { page } from "./components/Layout";
 const Contacts = () => {
-    return (
+  return (
+    <>
+      <Head><title>{ page="Contacts"}</title></Head>
         <div className="bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500
         text-white w-full h-screen   flex flex-col  items-center contacts ">
           <Fade cascade triggerOnce  direction={"left"}>
@@ -50,7 +53,8 @@ const Contacts = () => {
          
             </div>
           </Fade> 
-        </div>
+      </div>
+    </>
     );
 };
 

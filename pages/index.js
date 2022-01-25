@@ -9,18 +9,20 @@ import Contacts from './contacts'
 import Oui from './oui'
 import Non from './non'
 import Jsp from './jsp'
+import Actions from './actions'
 
 export default function Home() {
   return (
-    <Layout   page="SUFFRAGE">
-      <Accueil />
-      <Calendrier />
-      <Nous />
-      <Rejoindre />
-      <Contacts />
-      <Oui />
-      <Non />
-      <Jsp />
+    <Layout page  >
+      <Accueil page="SUFFRAGE" />
+      <Calendrier page="Calendrier" />
+      <Nous page="Qui sommes nous" />
+      <Actions page="Actions" />
+      <Rejoindre page="Rejoindre" />
+      <Contacts page="Contacts" />
+      <Oui page="Oui" />
+      <Non page="Non" />
+      <Jsp page="Jsp" />
     </Layout>
    
   )

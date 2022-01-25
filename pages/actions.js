@@ -1,10 +1,14 @@
 import Link from 'next/link';
+import Head from 'next/head';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { Fade } from "react-awesome-reveal";
+import {page} from "./components/Layout"
 const Actions = () => {
     return (
+        <>
+            <Head><title>{page="Actions" }</title></Head>
         <div className="bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500
         text-white w-screen sm:h-screen  flex justify-start flex-col items-center sm:justify-start actions">
             <Fade cascade triggerOnce  direction={"top"}>
@@ -33,6 +37,7 @@ const Actions = () => {
             </div>
             </Fade>
         </div>
+        </>
     );
 };
 
