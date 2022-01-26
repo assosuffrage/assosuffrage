@@ -43,9 +43,9 @@ const Menu = () =>
                   
                
                 <div className=' fixed bottom-2   z-50 '>
-                    <button className=' animate-bounce flex '>
+                    <button className=' animate-bounce flex '  aria-label='swipe-up'>
                          <Link href="/accueil">
-                           <a alt="lien vers la page d'accueil"><FontAwesomeIcon icon={faAngleUp} size="3x"  /></a>
+                           <a alt="lien vers la page d'accueil" aria-hidden="false"><FontAwesomeIcon icon={faAngleUp} size="3x"  /></a>
                          </Link>
                     </button>
                    

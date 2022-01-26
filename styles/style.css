@@ -75,8 +75,7 @@ section {
   }
 }
 @media (min-width: 320px) and (max-width: 640px) {
-  .actions,
-  .sommes-nous {
+  .actions {
     height: 100vh;
   }
   .ouititle {

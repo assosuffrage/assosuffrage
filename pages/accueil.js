@@ -39,7 +39,7 @@ const Accueil = () =>
                 <div className=' absolute bottom-2 animate-bounce z-50 '>
                     <button aria-label='swipe-up'>
                         <Link href="/calendrier">
-                            <a alt="lien vers la page calendrier" aria-hidden="true"><FontAwesomeIcon icon={faAngleUp} size="3x" /></a>
+                            <a alt="lien vers la page calendrier" aria-hidden="false"><FontAwesomeIcon icon={faAngleUp} size="3x" /></a>
                         </Link>
                     </button>
                         
