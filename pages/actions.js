@@ -15,16 +15,16 @@ const Actions = () => {
             <h1 className="text-2xl flex  justify-center items-center mt-3 sm:mt-8  lg:mt-12 ">Nos actions ?</h1>
 
             <div className="my-5 mx-2 text-center flex justify-center items-center flex-col" >
-                <h2 className=" px-2  mb-3 text-xl bg-gradient-to-b from-blue-700 via-blue-800 to-red-500 rounded-3xl">La boîte à outils</h2>
-                <p className=' sm:w-3/5 lg:w-2/6'>Expliquer la boite à outils, son fonctionnement, où elle se met en place, avec qui, comment, pourquoi.. </p>
+                <h2 className=" px-2  mb-3 text-xl font-bold text-black bg-gray-100  rounded-3xl">La boîte à outils</h2>
+                <p className=' sm:w-3/5 lg:w-2/6 p-2 text-white bg-black  rounded-3xl'>Expliquer la boite à outils, son fonctionnement, où elle se met en place, avec qui, comment, pourquoi.. </p>
             </div>
             <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
-                <h2 className=" px-2 mb-3 text-xl bg-gradient-to-b from-blue-700 via-blue-800 to-red-500 rounded-3xl">Les interventions (conférences) dans les universités</h2>
-                <p className=' sm:w-3/5 lg:w-2/6'>Expliquer la teneur de nos interventions, par exemple  intervenir pour parler du vote blanc et de l'utilité de le comptabiliser ... dans le but d'établir un débat démocratique et favoriser les échanges avec les élus </p>
+                <h2 className=" px-2 mb-3 text-xl font-bold text-black bg-gray-100  rounded-3xl">Les interventions (conférences) dans les universités</h2>
+                <p className=' sm:w-3/5 lg:w-2/6 p-2 text-white bg-black  rounded-3xl'>Expliquer la teneur de nos interventions, par exemple  intervenir pour parler du vote blanc et de l'utilité de le comptabiliser ... dans le but d'établir un débat démocratique et favoriser les échanges avec les élus </p>
             </div>
             <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
-                <h2 className=" px-2 mb-3 text-xl bg-gradient-to-b from-blue-700 via-blue-800 to-red-500 rounded-3xl">Les happenings dans la ville</h2>
-                <p className=' sm:w-3/5 lg:w-2/6'>Expliquer nos actions dans la ville, notre démarche artistique pour sensibiliser à la politique, notre volonté de pousser quelques frontières par l'expérimentation</p>
+                <h2 className=" px-2 mb-3 text-xl font-bold text-black bg-gray-100  rounded-3xl">Les happenings dans la ville</h2>
+                <p className=' sm:w-3/5 lg:w-2/6 p-2 text-white bg-black   rounded-3xl'>Expliquer nos actions dans la ville, notre démarche artistique pour sensibiliser à la politique, notre volonté de pousser quelques frontières par l'expérimentation</p>
                 
             </div>
             <div className=' fixed bottom-2 '>

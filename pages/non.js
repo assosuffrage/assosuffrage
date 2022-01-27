@@ -21,15 +21,16 @@ const Non = () => {
                     </Link>
                 </button>
                 <FontAwesomeIcon icon={faHandPointUp} size="2x" className="text-black mt-2  mr-2  transition duration-300 ease-in hover:text-black   " />
-                <p className=' mb-32 w-9/12 sm:w-7/12 md:w-4/12 lg:w-3/12 xl:w-2/12 bg-gradient-to-b from-blue-700 via-blue-800 to-red-500 rounded-3xl p-2 '>
+                <p className=' mb-32 w-9/12 sm:w-7/12 md:w-4/12 lg:w-3/12 xl:w-2/12 bg-gray-100 text-black rounded-3xl p-2 '>
                         <FontAwesomeIcon icon={faInfoCircle} size="2x" className="text-black  mr-2  transition duration-300 ease-in hover:text-black   " />
                         Munis-toi en format dématérialisé de ta carte d'identité et d'un justificatif de domicile 
                 </p>
                 <div className='flex flex-col items-center place-self-end  mb-3 relative'>
                 
-                <p className='place-self-end mr-3 mb-2 w-60 bg-gradient-to-b from-blue-700 via-blue-800 to-red-500 rounded-3xl p-2 '>
+                <p className='place-self-end mr-3 mb-2 w-60 bg-gray-100 text-black rounded-3xl p-2 '>
                     <FontAwesomeIcon icon={faExclamationTriangle} size="2x" className="text-green-500  mr-2  transition duration-300 ease-in hover:text-black   " />
-                    Si jamais tu n'es pas là pour les élections, tu peux faire une procuration : </p>
+                    Si jamais tu n'es pas là pour les élections, tu peux faire une procuration :
+                </p>
                     <button className='place-self-end mr-3 rounded-3xl bg-gray-300 p-4'>
                         <Link href="https://www.service-public.fr/particuliers/vosdroits/F1604">
                             <a target="_blank" rel="noopener">
