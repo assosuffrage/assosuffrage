@@ -11,7 +11,7 @@ const Oui = () => {
         <>
             <Head><title>{page = "Oui" }</title></Head>
             <div className="bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500
-            text-white w-full  h-full xl:h-screen flex flex-col justify-center items-center">
+            text-white w-full  h-full sm:h-screen md:h-full xl:h-screen  flex flex-col justify-center items-center">
                 <h1 className='flex justify-center md:w-72  my-20 text-2xl font-bold text-center ouititle '>Désormais il s'agit de connaître  ton bureau de vote !</h1>
                 <button className='rounded-3xl bg-gray-300 p-4'>
                     <Link href="https://www.service-public.fr/particuliers/vosdroits/services-en-ligne-et-formulaires/ISE">
