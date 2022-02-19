@@ -36,11 +36,21 @@ h1 {
 .mylogo {
   top: -1.3rem;
 }
+.info {
+  left: -3rem;
+}
+.info-inscription {
+  left: -34px;
+}
+.hand {
+  top: 17rem;
+  right: 36rem;
+}
 section {
   height: 93vh;
   width: 30vh;
   background-color: #2d2f31;
-  cursor: pointer;
+  /* cursor: pointer; */
   box-shadow: 6px 5px 2px #1b1e20;
   color: #fff;
 }
@@ -70,8 +80,14 @@ section {
   }
 }
 @media (min-width: 280px) and (max-width: 319px) {
-  .actions {
+  .actions,
+  .yes-container {
     height: 100%;
+  }
+}
+@media (min-width: 390px) and (max-width: 600px) {
+  .yes-container {
+    height: 100vh;
   }
 }
 @media (min-width: 320px) and (max-width: 640px) {

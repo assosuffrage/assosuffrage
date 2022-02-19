@@ -6,23 +6,22 @@ module.exports = {
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
       use: [
         {
-          loader: 'url-loader',
+          loader: "url-loader",
           options: {
-            name: '[name]-[hash].[ext]',
+            name: "[name]-[hash].[ext]",
           },
         },
       ],
     });
     return config;
   },
-    async redirects() {
-      return [
-        {
-          source: '/',
-          destination: '/accueil',
-          permanent: true,
-        },
-      ]
-    },
-  
-}
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/accueil",
+        permanent: true,
+      },
+    ];
+  },
+};

@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: 'inlander_outlinerough';
-    src: url('../public/fonts/inlander_outline_rough-webfont.woff2') format('woff2'),
-         url('../public/fonts/inlander_outline_rough-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "inlander_outlinerough";
+  src: url("../public/fonts/inlander_outline_rough-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/inlander_outline_rough-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
