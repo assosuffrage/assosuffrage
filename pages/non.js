@@ -21,7 +21,7 @@ const Non = () => {
         className="bg-black
             text-white w-full  h-full yes-container sm:h-screen md:h-full xl:h-screen flex flex-col justify-center items-center"
       >
-        <h1 className="flex justify-center md:4/5  my-20 text-2xl md:text-4xl font-bold text-center ouititle ">
+        <h1 className="flex justify-center md:4/5  my-4 text-2xl md:text-4xl font-bold text-center ouititle ">
           Désormais il s'agit de connaître ton bureau de vote !
         </h1>
         <div className="relative">
