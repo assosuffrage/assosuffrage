@@ -19,23 +19,26 @@ const Non = () => {
       </Head>
       <div
         className="bg-black
-            text-white w-full  h-full yes-container md:h-full xl:h-screen flex flex-col justify-center items-center"
+            text-white w-full  h-full yes-container sm:h-screen md:h-full xl:h-screen flex flex-col justify-center items-center"
       >
-        <h1 className="flex justify-center md:w-72  my-20 text-2xl font-bold text-center ouititle ">
+        <h1 className="flex justify-center md:4/5  my-20 text-2xl md:text-4xl font-bold text-center ouititle ">
           Désormais il s'agit de connaître ton bureau de vote !
         </h1>
-        <button className="rounded-3xl bg-gray-300 p-4">
-          <Link href="https://www.inscriptionelectorale.service-public.fr/">
-            <a target="_blank" rel="noopener" className="text-black">
-              C'est par ici
-            </a>
-          </Link>
-        </button>
-        <FontAwesomeIcon
-          icon={faHandPointUp}
-          size="2x"
-          className="text-white mt-2  mr-2"
-        />
+        <div className="relative">
+          <button className="rounded-3xl bg-gray-300 p-4 mb-8">
+            <Link href="https://www.inscriptionelectorale.service-public.fr/">
+              <a target="_blank" rel="noopener" className="text-black">
+                C'est par ici
+              </a>
+            </Link>
+          </button>
+          <FontAwesomeIcon
+            icon={faHandPointUp}
+            size="2x"
+            className="text-white absolute hand"
+          />
+        </div>
+        
         <p className=" mb-32 w-9/12 sm:w-7/12 relative md:w-4/12 lg:w-3/12 xl:w-2/12 font-medium text-white">
           <FontAwesomeIcon
             icon={faInfoCircle}
