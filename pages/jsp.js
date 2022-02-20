@@ -19,7 +19,7 @@ const Jsp = () => {
       </Head>
       <div
         className="bg-black
-            text-white w-full  yes-container sm:h-screen   md:h-full xl:h-screen flex flex-col justify-center items-center"
+            text-white w-full  yes-container sm:h-screen  xl:h-screen flex flex-col justify-center items-center"
       >
         <h1 className="flex justify-center md:4/5  my-4 text-2xl md:text-4xl font-bold text-center ouititle ">
           Vérifie ton inscription électorale en faisant une simulation !
@@ -46,7 +46,7 @@ const Jsp = () => {
             className="text-white absolute info-inscription"
           />
           Si jamais tu n'es pas inscrit il te suffit de te munir en format
-          dématérialisé de ta pièce d'identité et d'un justificatif de domicile{" "}
+          dématérialisé de ta <span className="underline font-semibold">pièce d'identité</span> et d'un <span className="underline font-semibold">justificatif de domicile</span>  {" "}
           <br /> <br />
           <strong> Et n'oublie pas de préciser tous tes prénoms !</strong>
         </p>

@@ -19,10 +19,10 @@ const Non = () => {
       </Head>
       <div
         className="bg-black
-            text-white w-full  h-full yes-container sm:h-screen md:h-full xl:h-screen flex flex-col justify-center items-center"
+            text-white w-full  h-full yes-container sm:h-screen  xl:h-screen flex flex-col justify-center items-center"
       >
         <h1 className="flex justify-center md:4/5  my-4 text-2xl md:text-4xl font-bold text-center ouititle ">
-          Désormais il s'agit de connaître ton bureau de vote !
+        Munis-toi en format dématérialisé de ta carte d'identité et d'un justificatif de domicile 
         </h1>
         <div className="relative">
           <button className="rounded-3xl bg-gray-300 p-4 mb-8">
@@ -45,8 +45,7 @@ const Non = () => {
             size="2x"
             className="text-white  absolute info-inscription"
           />
-          Munis-toi en format dématérialisé de ta carte d'identité et d'un
-          justificatif de domicile
+          Munis-toi en format dématérialisé de ta <span className="underline font-semibold">carte d'identité</span> et d'un  <span className="underline font-semibold">justificatif de domicile</span>  
         </p>
         <div className="flex flex-col items-center place-self-end  mb-3 relative">
           <p className="place-self-end mr-3 mb-2 w-60 text-white font-medium">
