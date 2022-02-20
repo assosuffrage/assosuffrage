@@ -19,9 +19,9 @@ const Oui = () => {
       </Head>
       <div
         className="bg-black
-            text-white w-full yes-container sm:h-screen   md:h-full xl:h-screen  flex flex-col justify-center items-center "
+            text-white w-full yes-container sm:h-screen  xl:h-screen  flex flex-col justify-center items-center "
       >
-        <h1 className="flex justify-center md:4/5  my-20 text-2xl md:text-4xl font-bold text-center ouititle ">
+        <h1 className="flex justify-center md:4/5  my-4 text-2xl md:text-4xl font-bold text-center ouititle ">
           Désormais il s'agit de connaître ton bureau de vote !
         </h1>
         <div className="relative">
@@ -50,7 +50,7 @@ const Oui = () => {
           domicile</span> justificatif de
           domicile Et n'oublie pas de préciser tous tes prénoms !
         </p>
-        <div className="flex flex-col items-center place-self-end  mb-3 relative">
+        <div className="flex flex-col items-center place-self-end  mb-3 md:mb-11 relative">
           <p className="place-self-end mr-3 mb-2 w-60  text-white font-medium ">
             <FontAwesomeIcon
               icon={faExclamationTriangle}

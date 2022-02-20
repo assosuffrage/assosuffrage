@@ -98,3 +98,8 @@ section {
     width: 18rem;
   }
 }
+@media (min-width: 768px) and (max-width: 1020px) {
+  .yes-container {
+    height: 81vh;
+  }
+}
