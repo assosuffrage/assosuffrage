@@ -11,7 +11,7 @@ import {
 import service from "../src/service-public2.png";
 import service2 from "../src/service-public3.png";
 import { page } from "./components/Layout";
-import Procuration from "./components/procuration";
+import Procuration from "./components/Procuration";
 const Oui = () => {
   return (
     <>
