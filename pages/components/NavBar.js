@@ -41,11 +41,11 @@ const NavBar = () => {
               className="mt-2 cursor-pointer outline-none "
             />
           </li>
-          <li className="absolute  right-1 mylogo cursor-pointer ">
+          {/* <li className="absolute  right-1 mylogo cursor-pointer ">
             <Link href="/accueil">
               <Image src={logo} alt="suffrage logo" width={250} height={100} />
             </Link>{" "}
-          </li>
+          </li> */}
         </ul>
         {!toggle ? null : (
           <>

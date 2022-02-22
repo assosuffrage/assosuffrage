@@ -84,6 +84,9 @@ section {
   .yes-container {
     height: 100%;
   }
+  .non-container {
+    height: 100vh;
+  }
 }
 @media (min-width: 390px) and (max-width: 600px) {
   .yes-container {
@@ -91,15 +94,17 @@ section {
   }
 }
 @media (min-width: 320px) and (max-width: 640px) {
-  .actions {
+  .actions,
+  .non-container {
     height: 100vh;
   }
+
   .ouititle {
     width: 18rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1020px) {
   .yes-container {
-    height: 81vh;
+    height: 100%;
   }
 }

@@ -12,14 +12,17 @@ const Contacts = () => {
         <title>{(page = "Contacts")}</title>
       </Head>
       <div
-        className="bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500
-        text-white w-full h-screen   flex flex-col  items-center contacts "
+        className="bg-black
+        text-white w-full h-screen   flex flex-col justify-start   contacts  "
       >
-        <Fade cascade triggerOnce direction={"left"}>
-          <h1 className="text-2xl  flex justify-center my-4 p-2 bg-gray-100 text-black font-bold  rounded-3xl">
-            Contacts
-          </h1>
-          <div>
+        <Fade cascade triggerOnce direction={"down"}>
+          <div className="flex justify-center items-center">
+            <h1 className="flex justify-center  my-4 text-3xl md:text-5xl underline font-bold text-center">
+              Contacts
+            </h1>
+          </div>
+          
+          <div className=" flex flex-col justify-start items-start ml-32  ">
             <Link href="/" aria-label="email association">
               <a
                 target="_blank"
@@ -28,52 +31,52 @@ const Contacts = () => {
               >
                 <FontAwesomeIcon
                   icon={faEnvelope}
-                  size="2x"
-                  className="text-white   transition duration-300 ease-in hover:text-black   "
+                  size="4x"
+                  className="text-white  "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center bg-black   rounded-xl m-2  text-white  ">
+                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-4 my-10  rounded-xl   text-white  ">
                   Assosuffrage@gmail.com
                 </p>
               </a>
             </Link>
 
-            <Link href="/" aria-label="email association">
+            <Link href="https://twitter.com/AssoSuffrage" aria-label="twitter association">
               <a
                 target="_blank"
                 rel="noopener"
-                className="flex justify-center items-center"
+                className="flex  items-center"
               >
                 <FontAwesomeIcon
                   icon={["fab", "twitter"]}
-                  size="2x"
-                  className="text-white  transition duration-300 ease-in hover:text-black   "
+                  size="4x"
+                  className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center bg-black   rounded-xl m-2  text-white  ">
-                  Assosuffrage@twitter.com
+                <p className=" flex flex-col justify-center w-5/6 p-1 items-center    rounded-xl ml-4 my-10   text-white  ">
+                  
                 </p>
               </a>
             </Link>
-            <Link href="/" aria-label="email association">
+            <Link href="https://www.facebook.com/AssoSuffrage" aria-label="email association">
               <a target="_blank" rel="noopener" className="flex  items-center">
                 <FontAwesomeIcon
                   icon={["fab", "facebook"]}
-                  size="2x"
-                  className="text-white   transition duration-300 ease-in hover:text-black   "
+                  size="4x"
+                  className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center bg-black   rounded-xl m-2  text-white  ">
-                  Assosuffrage@facebook.com
+                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  ">
+                  
                 </p>
               </a>
             </Link>
-            <Link href="/" aria-label="email association">
+            <Link href="https://www.instagram.com/assosuffrage/" aria-label="instagram association">
               <a target="_blank" rel="noopener" className="flex items-center">
                 <FontAwesomeIcon
                   icon={["fab", "instagram"]}
-                  size="2x"
-                  className="text-white  transition duration-300 ease-in hover:text-black   "
+                  size="4x"
+                  className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center bg-black   rounded-xl m-2  text-white  ">
-                  Assosuffrage@instagram.com
+                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  ">
+                  
                 </p>
               </a>
             </Link>
@@ -81,11 +84,11 @@ const Contacts = () => {
               <a target="_blank" rel="noopener" className="flex  items-center">
                 <FontAwesomeIcon
                   icon={["fab", "linkedin"]}
-                  size="2x"
-                  className="text-white  transition duration-300 ease-in hover:text-black   "
+                  size="4x"
+                  className="text-white "
                 />
-                <p className=" flex flex-col justify-center p-1 w-5/6 items-center bg-black   rounded-xl m-2  text-white  ">
-                  Assosuffrage@linkedin.com
+                <p className=" flex flex-col justify-center p-1 w-5/6 items-center    rounded-xl ml-4 my-10   text-white  ">
+                  
                 </p>
               </a>
             </Link>

@@ -13,10 +13,13 @@ const Inscriptions = () => {
         className="bg-black text-white w-screen h-screen flex flex-col  "
       >
         <div className="flex flex-col justify-center items-center">
-          <h1 className="flex justify-center  sm:w-96 md:w-4/5 my-20 text-2xl md:text-4xl font-bold text-center ">
+          <h1 className="flex justify-center  sm:w-96 md:w-4/5 my-20 text-3xl md:text-4xl font-bold text-center ">
             Es-tu inscrit sur les listes électorales ?
           </h1>
-          <p className=" mb-20 w-5/6 sm:w-7/12 md:w-4/12 lg:w-3/12 relative xl:w-4/12 xl:text-justify text-xl font-medium ">
+          <div>
+            
+          </div>
+          <p className=" mb-20 ml-4 w-8/12 sm:w-7/12 md:w-[22rem] lg:w-3/12 relative xl:w-4/12 xl:text-justify text-xl font-medium   ">
             <FontAwesomeIcon
               icon={faInfoCircle}
               size="2x"
