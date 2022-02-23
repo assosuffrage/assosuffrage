@@ -12,7 +12,7 @@ const Actions = () => {
         <title>{(page = "Actions")}</title>
       </Head>
       <div
-        className="bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500
+        className="bg-black
         text-white w-screen sm:h-screen  flex justify-start flex-col items-center sm:justify-start actions"
       >
         <Fade cascade triggerOnce direction={"top"}>
@@ -21,7 +21,7 @@ const Actions = () => {
           </h1>
 
           <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
-            <h2 className=" px-2  mb-3 text-xl font-bold text-black bg-gray-100  rounded-3xl">
+            <h2 className=" px-2  mb-3 text-xl font-bold text-white  rounded-3xl">
               La boîte à outils
             </h2>
             <p className=" sm:w-3/5 lg:w-2/6 p-2 text-white bg-black  rounded-3xl">
@@ -30,7 +30,7 @@ const Actions = () => {
             </p>
           </div>
           <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
-            <h2 className=" px-2 mb-3 text-xl font-bold text-black bg-gray-100  rounded-3xl">
+            <h2 className=" px-2 mb-3 text-xl font-bold text-white  rounded-3xl">
               Les interventions (conférences) dans les universités
             </h2>
             <p className=" sm:w-3/5 lg:w-2/6 p-2 text-white bg-black  rounded-3xl">
@@ -41,7 +41,7 @@ const Actions = () => {
             </p>
           </div>
           <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
-            <h2 className=" px-2 mb-3 text-xl font-bold text-black bg-gray-100  rounded-3xl">
+            <h2 className=" px-2 mb-3 text-xl font-bold text-white  rounded-3xl">
               Les happenings dans la ville
             </h2>
             <p className=" sm:w-3/5 lg:w-2/6 p-2 text-white bg-black   rounded-3xl">
