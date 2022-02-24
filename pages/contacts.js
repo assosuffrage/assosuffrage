@@ -22,7 +22,7 @@ const Contacts = () => {
             </h1>
           </div>
           
-          <div className=" flex flex-col justify-start items-start ml-32  ">
+          <div className=" flex flex-col justify-start items-start ml-4  sm:ml-32  ">
             <Link href="/" aria-label="email association">
               <a
                 target="_blank"
@@ -31,10 +31,10 @@ const Contacts = () => {
               >
                 <FontAwesomeIcon
                   icon={faEnvelope}
-                  size="4x"
+                  size="3x"
                   className="text-white  "
                 />
-                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-4 my-10  rounded-xl   text-white  ">
+                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-1 my-10  rounded-xl   text-white  ">
                   Assosuffrage@gmail.com
                 </p>
               </a>
@@ -48,7 +48,7 @@ const Contacts = () => {
               >
                 <FontAwesomeIcon
                   icon={["fab", "twitter"]}
-                  size="4x"
+                  size="3x"
                   className="text-white "
                 />
                 <p className=" flex flex-col justify-center w-5/6 p-1 items-center    rounded-xl ml-4 my-10   text-white  ">
@@ -60,7 +60,7 @@ const Contacts = () => {
               <a target="_blank" rel="noopener" className="flex  items-center">
                 <FontAwesomeIcon
                   icon={["fab", "facebook"]}
-                  size="4x"
+                  size="3x"
                   className="text-white "
                 />
                 <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  ">
@@ -72,7 +72,7 @@ const Contacts = () => {
               <a target="_blank" rel="noopener" className="flex items-center">
                 <FontAwesomeIcon
                   icon={["fab", "instagram"]}
-                  size="4x"
+                  size="3x"
                   className="text-white "
                 />
                 <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  ">
@@ -84,7 +84,7 @@ const Contacts = () => {
               <a target="_blank" rel="noopener" className="flex  items-center">
                 <FontAwesomeIcon
                   icon={["fab", "linkedin"]}
-                  size="4x"
+                  size="3x"
                   className="text-white "
                 />
                 <p className=" flex flex-col justify-center p-1 w-5/6 items-center    rounded-xl ml-4 my-10   text-white  ">

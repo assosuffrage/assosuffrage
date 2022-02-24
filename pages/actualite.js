@@ -25,7 +25,7 @@ const Actualite = () => {
                 <article><h2>. ONGLET PRESSE ?</h2></article>
                 <article><h2>. QUELQUES ARTICLES DE L'ASSO ? </h2></article>
             </div>
-            <div className="md:flex justify-center items-center ">
+            <div className="md:flex justify-center items-center mx-2 md:mx-0 ">
                 <Timeline
                     dataSource={{
                     sourceType: 'profile',
