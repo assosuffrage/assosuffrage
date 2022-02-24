@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+@import url("http://fonts.cdnfonts.com/css/glacial-indifference-2");
 
 body {
   margin: 0;
@@ -11,8 +12,9 @@ body {
   letter-spacing: 10px;
 }
 h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 0.9rem;
+  font-family: "Glacial Indifference", sans-serif;
+
+  font-weight: bold;
 }
 .suff {
   color: #3251d6;
@@ -46,7 +48,11 @@ h1 {
   top: 3rem;
   right: 1rem;
 }
-section {
+.menu {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+sidebar {
   height: 93vh;
   width: 30vh;
   background-color: #2d2f31;

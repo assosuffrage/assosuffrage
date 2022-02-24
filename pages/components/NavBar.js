@@ -49,7 +49,7 @@ const NavBar = () => {
         </ul>
         {!toggle ? null : (
           <>
-            <section className="absolute top-2 bottom-2 left-2  pl-3  z-10 ">
+            <sidebar className="absolute top-2 bottom-2 left-2  pl-3  z-10 ">
               <nav>
                 <ul className="flex flex-col ">
                   <li className="">
@@ -60,15 +60,15 @@ const NavBar = () => {
                       size="2x"
                       className="mt-3 cursor-pointer "
                     />
-                    <span className=" font-bold text-3xl  py-5 ml-2 ">
+                    <span className=" font-bold text-3xl  py-5 ml-2 menu ">
                       Menu
                     </span>{" "}
-                    </li>
+                  </li>
                   <li className=" liste_titre font-bold text-sm py-5 ">
                     <Link href="/accueil">
                       <a> Accueil</a>
                     </Link>
-                  </li>              
+                  </li>
                   <li className=" liste_titre font-bold text-sm py-5 ">
                     <Link href="/sommes-nous">
                       <a> Qui sommes nous ?</a>
@@ -91,7 +91,7 @@ const NavBar = () => {
                   </li>
                 </ul>
               </nav>
-            </section>
+            </sidebar>
           </>
         )}
       </nav>

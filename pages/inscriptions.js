@@ -9,16 +9,12 @@ const Inscriptions = () => {
       <Head>
         <title>{(page = "Inscriptions")}</title>
       </Head>
-      <div
-        className="bg-black text-white w-screen h-screen flex flex-col  "
-      >
+      <section className="bg-black text-white w-screen h-screen flex flex-col  ">
         <div className="flex flex-col justify-center items-center">
           <h1 className="flex justify-center  sm:w-96 md:w-4/5 my-20 text-3xl md:text-4xl font-bold text-center ">
             Es-tu inscrit sur les listes électorales ?
           </h1>
-          <div>
-            
-          </div>
+          <div></div>
           <p className=" mb-20 ml-4 w-8/12 sm:w-7/12 md:w-[22rem] lg:w-3/12 relative xl:w-4/12 xl:text-justify text-xl font-medium   ">
             <FontAwesomeIcon
               icon={faInfoCircle}
@@ -40,7 +36,7 @@ const Inscriptions = () => {
             <Link href="/jsp">JSP</Link>
           </button>
         </div>
-      </div>
+      </section>
     </>
   );
 };

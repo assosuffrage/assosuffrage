@@ -9,7 +9,6 @@ import { Fade } from "react-awesome-reveal";
 import { page } from "./components/Layout";
 import Actualite from "./actualite";
 
-
 const Menu = () => {
   return (
     <>
@@ -17,21 +16,18 @@ const Menu = () => {
         <title>{(page = "Calendrier")}</title>
       </Head>
       <div className="bg-black">
-        <main className="text-white w-screen  lg:h-full xl:w-full  flex justify-center flex-col items-center ">
+        <section className="text-white w-screen  lg:h-full xl:w-full  flex  justify-center flex-col items-center ">
           <Fade cascade triggerOnce direction={"top"}>
-            <div
-              className="bg-gray-100 text-black  flex flex-row-reverse justify-center items-center  m-12  py-5 px-2 rounded-xl
-                  "
-            >
-              <h1 className=" font-bold text-xl md:text-2xl lg:text-2xl ">
-                CALENDRIER ÉLECTORALES
+            <div className="text-white flex flex-row-reverse ">
+              <h1 className=" font-bold  text-2xl sm:text-3xl md:text-5xl glacial-title ">
+                CALENDRIER ÉLECTORALES :
               </h1>
-              <span className="pr-4">
+              <span className="pr-4 mt-2 invisible sm:visible ">
                 <FontAwesomeIcon icon={faCalendarAlt} size="2x" />
               </span>
             </div>
 
-            <div className="flex flex-col justify-center z-0  font-semibold">
+            <div className="flex flex-col justify-center z-0  font-medium">
               <p className="px-3 transition-transform delay-200 duration-500 cursor-pointer ease-out hover:scale-110  text-center md:text-left  py-2 my-3 mx-9 text-white   ">
                 <FontAwesomeIcon icon={faHandPointRight} size="" /> 23 JANVIER :
                 FERMETURE DES INSCRIPTIONS POUR LA PRIMAIRE POPULAIRE{" "}
@@ -81,7 +77,7 @@ const Menu = () => {
             </div> */}
           </Fade>
           <Actualite />
-        </main>
+        </section>
       </div>
     </>
   );

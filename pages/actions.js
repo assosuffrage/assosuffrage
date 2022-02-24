@@ -16,11 +16,11 @@ const Actions = () => {
         text-white w-screen sm:h-screen  flex justify-start flex-col items-center sm:justify-start actions"
       >
         <Fade cascade triggerOnce direction={"top"}>
-          <h1 className="text-2xl flex  justify-center items-center mt-3 sm:mt-8  lg:mt-12 ">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl flex  justify-center items-center mt-3 sm:mt-8  lg:mt-12 ">
             Nos actions ?
           </h1>
 
-          <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
+          <article className="my-5 mx-2 text-center flex justify-center items-center flex-col">
             <h2 className=" px-2  mb-3 text-xl font-bold text-white  rounded-3xl">
               La boîte à outils
             </h2>
@@ -28,8 +28,8 @@ const Actions = () => {
               Expliquer la boite à outils, son fonctionnement, où elle se met en
               place, avec qui, comment, pourquoi..{" "}
             </p>
-          </div>
-          <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
+          </article>
+          <article className="my-5 mx-2 text-center flex justify-center items-center flex-col">
             <h2 className=" px-2 mb-3 text-xl font-bold text-white  rounded-3xl">
               Les interventions (conférences) dans les universités
             </h2>
@@ -39,8 +39,8 @@ const Actions = () => {
               dans le but d'établir un débat démocratique et favoriser les
               échanges avec les élus{" "}
             </p>
-          </div>
-          <div className="my-5 mx-2 text-center flex justify-center items-center flex-col">
+          </article>
+          <article className="my-5 mx-2 text-center flex justify-center items-center flex-col">
             <h2 className=" px-2 mb-3 text-xl font-bold text-white  rounded-3xl">
               Les happenings dans la ville
             </h2>
@@ -49,16 +49,7 @@ const Actions = () => {
               pour sensibiliser à la politique, notre volonté de pousser
               quelques frontières par l'expérimentation
             </p>
-          </div>
-          <div className=" fixed bottom-2 ">
-            <button className=" animate-bounce flex  ">
-              <Link href="/accueil">
-                <a>
-                  <FontAwesomeIcon icon={faAngleUp} size="3x" />
-                </a>
-              </Link>
-            </button>
-          </div>
+          </article>
         </Fade>
       </div>
     </>

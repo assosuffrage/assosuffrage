@@ -18,7 +18,7 @@ const Oui = () => {
       <Head>
         <title>{(page = "Oui")}</title>
       </Head>
-      <div
+      <section
         className="bg-black
             text-white w-full yes-container sm:h-screen  xl:h-screen  flex flex-col justify-start items-center"
       >
@@ -39,7 +39,7 @@ const Oui = () => {
             className="text-white absolute hand"
           />
         </div>
-       
+
         <p className=" mb-20 w-9/12 sm:w-7/12 relative md:w-4/12 lg:w-3/12 xl:w-2/12 font-medium  text-white">
           <FontAwesomeIcon
             icon={faInfoCircle}
@@ -47,12 +47,17 @@ const Oui = () => {
             className="text-white  absolute info-inscription"
           />
           Si jamais ton bureau de vote n'est pas le bon il te suffit de te munir
-          en format dématérialisé de ta <span className="underline font-semibold">pièce d'identité</span> et d'un <span className="underline font-semibold">justificatif de
-          domicile</span> justificatif de
-          domicile Et n'oublie pas de préciser tous tes prénoms !
+          en format dématérialisé de ta{" "}
+          <span className="underline font-semibold">pièce d'identité</span> et
+          d'un{" "}
+          <span className="underline font-semibold">
+            justificatif de domicile
+          </span>{" "}
+          justificatif de domicile Et n'oublie pas de préciser tous tes prénoms
+          !
         </p>
         <Procuration />
-      </div>
+      </section>
     </>
   );
 };

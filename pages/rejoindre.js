@@ -6,7 +6,7 @@ const Rejoindre = () => {
       <Head>
         <title>{(page = "rejoindre")}</title>
       </Head>
-      <div className=" text-white bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500 w-screen h-screen flex justify-center flex-col items-center">
+      <section className=" text-white bg-gradient-to-tl from-blue-700 via-blue-500 to-red-500 w-screen h-screen flex justify-center flex-col items-center">
         <iframe
           id="haWidget"
           allowtransparency="true"
@@ -15,7 +15,7 @@ const Rejoindre = () => {
           className="w-screen h-screen border-none"
           onload="window.scroll(0, this.offsetTop)"
         ></iframe>
-      </div>
+      </section>
     </>
   );
 };

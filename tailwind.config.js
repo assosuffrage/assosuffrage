@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        "inscription" : '22rem',
-      }
+        inscription: "22rem",
+      },
     },
   },
   plugins: [],

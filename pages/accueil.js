@@ -15,7 +15,7 @@ const Accueil = () => {
       <Head>
         <title>{(page = "Accueil")}</title>
       </Head>
-      <div className="text-white bg-black w-full h-screen flex justify-center flex-col items-center">
+      <section className="text-white bg-black w-full h-screen flex justify-center flex-col items-center">
         <h1
           className=" text-3xl md:text-8xl lg:text-9xl font-bold pl-2 mb-8  z-50 "
           id="calendar"
@@ -44,7 +44,7 @@ const Accueil = () => {
             </Link>
           </button>
         </div>
-      </div>
+      </section>
     </>
   );
 };

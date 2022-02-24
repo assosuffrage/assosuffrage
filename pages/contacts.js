@@ -11,7 +11,7 @@ const Contacts = () => {
       <Head>
         <title>{(page = "Contacts")}</title>
       </Head>
-      <div
+      <section
         className="bg-black
         text-white w-full h-screen   flex flex-col justify-start   contacts  "
       >
@@ -21,7 +21,7 @@ const Contacts = () => {
               Contacts
             </h1>
           </div>
-          
+
           <div className=" flex flex-col justify-start items-start ml-4  sm:ml-32  ">
             <Link href="/" aria-label="email association">
               <a
@@ -40,44 +40,43 @@ const Contacts = () => {
               </a>
             </Link>
 
-            <Link href="https://twitter.com/AssoSuffrage" aria-label="twitter association">
-              <a
-                target="_blank"
-                rel="noopener"
-                className="flex  items-center"
-              >
+            <Link
+              href="https://twitter.com/AssoSuffrage"
+              aria-label="twitter association"
+            >
+              <a target="_blank" rel="noopener" className="flex  items-center">
                 <FontAwesomeIcon
                   icon={["fab", "twitter"]}
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center    rounded-xl ml-4 my-10   text-white  ">
-                  
-                </p>
+                <p className=" flex flex-col justify-center w-5/6 p-1 items-center    rounded-xl ml-4 my-10   text-white  "></p>
               </a>
             </Link>
-            <Link href="https://www.facebook.com/AssoSuffrage" aria-label="email association">
+            <Link
+              href="https://www.facebook.com/AssoSuffrage"
+              aria-label="email association"
+            >
               <a target="_blank" rel="noopener" className="flex  items-center">
                 <FontAwesomeIcon
                   icon={["fab", "facebook"]}
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  ">
-                  
-                </p>
+                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  "></p>
               </a>
             </Link>
-            <Link href="https://www.instagram.com/assosuffrage/" aria-label="instagram association">
+            <Link
+              href="https://www.instagram.com/assosuffrage/"
+              aria-label="instagram association"
+            >
               <a target="_blank" rel="noopener" className="flex items-center">
                 <FontAwesomeIcon
                   icon={["fab", "instagram"]}
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  ">
-                  
-                </p>
+                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  "></p>
               </a>
             </Link>
             <Link href="/" aria-label="email association">
@@ -87,14 +86,12 @@ const Contacts = () => {
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center p-1 w-5/6 items-center    rounded-xl ml-4 my-10   text-white  ">
-                  
-                </p>
+                <p className=" flex flex-col justify-center p-1 w-5/6 items-center    rounded-xl ml-4 my-10   text-white  "></p>
               </a>
             </Link>
           </div>
         </Fade>
-      </div>
+      </section>
     </>
   );
 };
