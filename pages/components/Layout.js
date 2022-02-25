@@ -16,6 +16,7 @@ const Layout = ({ children, page }) => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="follow, index" />
+        <meta name="google-site-verification" content="6_bYbOQTXbTweS55CjUkoidfIqKxsciagr7YsT6ES_E" />
         <link
           rel="preload"
           href="/webfontkit/inlander_outline_rough-webfont.woff"
