@@ -34,7 +34,7 @@ const Contacts = () => {
                   size="3x"
                   className="text-white  "
                 />
-                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-1 my-10  rounded-xl   text-white  ">
+                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-1 my-10  rounded-xl   text-white underline  ">
                   Assosuffrage@gmail.com
                 </p>
               </a>
@@ -50,7 +50,9 @@ const Contacts = () => {
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center    rounded-xl ml-4 my-10   text-white  "></p>
+                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-1 my-10  rounded-xl   text-white underline  ">
+                  https://twitter.com/AssoSuffrage
+                </p>
               </a>
             </Link>
             <Link
@@ -63,7 +65,9 @@ const Contacts = () => {
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  "></p>
+                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-1 my-10  rounded-xl   text-white underline  ">
+                   https://www.facebook.com/AssoSuffrage
+                </p>
               </a>
             </Link>
             <Link
@@ -76,7 +80,9 @@ const Contacts = () => {
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center w-5/6 p-1 items-center   rounded-xl ml-4 my-10   text-white  "></p>
+                <p className=" flex flex-col justify-center w-max p-1 items-center   ml-1 my-10  rounded-xl   text-white underline  ">
+                   https://www.instagram.com/assosuffrage/ 
+                </p>
               </a>
             </Link>
             <Link href="/" aria-label="email association">
@@ -86,7 +92,7 @@ const Contacts = () => {
                   size="3x"
                   className="text-white "
                 />
-                <p className=" flex flex-col justify-center p-1 w-5/6 items-center    rounded-xl ml-4 my-10   text-white  "></p>
+                <p className=" flex flex-col justify-center p-1 w-5/6 items-center    rounded-xl ml-1 my-10   text-white  "></p>
               </a>
             </Link>
           </div>

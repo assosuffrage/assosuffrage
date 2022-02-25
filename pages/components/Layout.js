@@ -8,11 +8,11 @@ const Layout = ({ children, page }) => {
         <meta charSet="utf-8" />
         <meta
           name="keywords"
-          content="Asso SUFFRAGE, association Bordeaux Jeunes "
+          content="ASSOSUFFRAGE, association basé à Bordeaux pour les Jeunes "
         />
         <meta
           name="description"
-          content="faciliter l'accès à la vie politique et créer un espace de débat démocratique pour la jeunesse"
+          content=" ASSOSUFFRAGE permet de faciliter l'accès à la vie politique et créer un espace de débat démocratique pour la jeunesse"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="follow, index" />

@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("http://fonts.cdnfonts.com/css/glacial-indifference-2");
 
 body {
   margin: 0;
   padding: 0;
-
-  font-family: "Poppins", sans-serif;
 }
 #calendar {
   font-family: inlander_outlinerough, serif;
@@ -51,6 +49,16 @@ h1 {
 .menu {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+}
+.question-title {
+  font-family: inlander_outlinerough, serif;
+}
+.infos-advice {
+  font-family: "Open Sans", sans-serif;
+}
+.response-question {
+  font-family: inlander_outlinerough, serif;
+  letter-spacing: 2px;
 }
 sidebar {
   height: 93vh;
