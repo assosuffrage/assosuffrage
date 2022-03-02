@@ -21,7 +21,7 @@ const Inscriptions = () => {
               size="2x"
               className="text-white mr-2 text-justify absolute info "
             />
-            Le savais-tu, dès ton recensement tu es automatiquement inscrit sur
+            Le savais-tu ? Dès ton recensement, tu es automatiquement inscrit-e sur
             les listes électorales !
           </p>
         </div>
