@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://assosuffrage.fr
+Host: https://assosuffrage.fr/accueil
 
 # Sitemaps
-Sitemap: https://assosuffrage.fr/sitemap.xml
+Sitemap: https://assosuffrage.fr/accueil/sitemap.xml

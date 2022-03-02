@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://assosuffrage.fr</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/accueil</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/actions</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/actualite</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/calendrier</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/components/Layout</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/components/NavBar</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/components/Procuration</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/contacts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/inscriptions</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/jsp</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/non</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/oui</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/rejoindre</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
-<url><loc>https://assosuffrage.fr/sommes-nous</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-02-25T13:24:45.627Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/accueil</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/actions</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/actualite</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/calendrier</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/components/Layout</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/components/NavBar</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/components/Procuration</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/contacts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/inscriptions</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/jsp</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/non</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/oui</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/rejoindre</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
+<url><loc>https://assosuffrage.fr/accueil/sommes-nous</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-02T06:06:34.308Z</lastmod></url>
 </urlset>

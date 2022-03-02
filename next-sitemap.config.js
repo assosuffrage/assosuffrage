@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://assosuffrage.fr',
+    siteUrl: 'https://assosuffrage.fr/accueil',
     generateRobotsTxt: true, 
     
   }  
