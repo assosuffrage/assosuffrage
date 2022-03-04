@@ -16,7 +16,7 @@ const Actions = () => {
         text-white w-screen sm:h-screen  flex justify-start flex-col items-center sm:justify-start actions"
       >
         <Fade cascade triggerOnce direction={"top"}>
-          <h1 className="text-2xl sm:text-3xl md:text-5xl flex  justify-center items-center mt-3 sm:mt-8  lg:mt-12 ">
+          <h1 className="text-3xl md:text-5xl flex font-extrabold justify-center items-center mt-12 mb-24 md:mt-5 ">
             Nos actions ?
           </h1>
 

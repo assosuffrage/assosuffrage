@@ -19,7 +19,7 @@ const Nous = () => {
             text-white w-full h-full   flex  flex-col items-center sm:items-center sommes-nous"
       >
         <Fade cascade triggerOnce direction={"top"}>
-          <h1 className="text-2xl sm:text-3xl md:text-5xl flex font-extrabold justify-center items-center mt-12 mb-24 md:mt-5 ">
+          <h1 className="text-3xl md:text-5xl flex font-extrabold justify-center items-center mt-12 mb-24 md:mt-5 ">
             Qui sommes-nous ?
           </h1>
         </Fade>
